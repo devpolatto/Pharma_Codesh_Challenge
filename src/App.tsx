@@ -1,11 +1,14 @@
+import Header from './components/Header';
 import LayoutGrid from './components/LayoutGrid';
+import SideBar from './components/SideBar';
 
 import GlobalStyles from './styles/Global';
 
 function App() {
   return (
     <LayoutGrid>
-      <h2>Code</h2>
+      <SideBar/>
+      <Header/>
       <GlobalStyles/>
     </LayoutGrid>
   );
