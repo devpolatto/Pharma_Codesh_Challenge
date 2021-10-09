@@ -1,7 +1,6 @@
-import styled from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
-export const Container = styled.div`
-  
+export default createGlobalStyle`  
   :root{
         --background: #FEFCFF;
         --background-header: #FEFEFF;
