@@ -16,6 +16,7 @@ export default createGlobalStyle`
     }
     body{
         background: var(--background);
+        font-family: 'Roboto', sans-serif;
     }
     
     /* body, input, textarea, button{
