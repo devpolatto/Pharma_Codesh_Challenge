@@ -2,7 +2,7 @@ import { FaBookOpen } from 'react-icons/fa'
 
 export const UserTableHeader: React.FC = () => {
     return (
-        <div className="flex justify-between items-center px-6 w-full max-w-7xl h-14 border-2 mb-2 rounded-t-lg">
+        <div className="flex justify-between items-center px-6 w-full max-w-7xl bg-white h-14 border-2 mb-2 rounded-t-lg">
             <div id="name">
                 <h3 className="text-2xl">Name</h3>
             </div>
@@ -16,7 +16,7 @@ export const UserTableHeader: React.FC = () => {
 
 export const UserTableItem: React.FC = () => {
   return (
-      <div className="flex justify-between items-center px-6 w-full max-w-7xl h-14 border-2 mb-2">
+      <div className="flex justify-between items-center px-6 w-full max-w-7xl bg-white h-14 border-2 mb-2">
             <div id="name">
                 <h3 className="text-1xl">Angelo Polatto</h3>
             </div>
